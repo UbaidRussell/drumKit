@@ -17,35 +17,51 @@ footer {
 }
 
 .w {
+  padding: 100px;
   background-image: url(images/crash.png);
+  background-repeat: no-repeat;
 }
 
 .a {
-background-image: url(images/kick.png);
+  padding: 100px;
+  background-image: url(images/kick.png);
+  background-repeat: no-repeat;
 }
 
 .s {
+  padding: 100px;
   background-image: url(images/snare.png);
+  background-repeat: no-repeat;
 }
 
 .d {
+  padding: 100px;
   background-image: url(images/tom1.png);
+  background-repeat: no-repeat;
 }
 
 .j {
+  padding: 100px;
   background-image: url(images/tom2.png);
+  background-repeat: no-repeat;
 }
 
 .k {
+  padding: 100px;
   background-image: url(images/tom3.png);
+  background-repeat: no-repeat;
 }
 
 .l {
+  padding: 100px;
   background-image: url(images/tom4.png);
+  background-repeat: no-repeat;;
 }
 
 .set {
   margin: 10% auto;
+  display: flex;
+  justify-content: center;
 }
 
 .game-over {
@@ -78,4 +94,10 @@ background-image: url(images/kick.png);
   text-align: center;
   margin: 10px;
   background-color: white;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 700px){
+.set{
+  flex-wrap: wrap;
+}
 }
