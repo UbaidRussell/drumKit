@@ -1,5 +1,5 @@
 //Detecting button press
-var numberOfDrumButtons =  document.querySelectorAll(".drum").length;
+let numberOfDrumButtons =  document.querySelectorAll(".drum").length;
 
 for (var i = 0; i < numberOfDrumButtons; i++){
 
