@@ -10,6 +10,10 @@ h1 {
   text-shadow: 3px 0 #DA0463;
 
 }
+button{
+  min-width: 200px;
+  min-height: 200px
+}
 
 footer {
   color: #DBEDF3;
