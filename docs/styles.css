@@ -94,9 +94,16 @@ footer {
   margin: 10px;
   background-color: white;
 }
-
+/*Mobile version*/
 @media only screen and (min-width: 100px) and (max-width: 700px){
 .set{
   flex-wrap: wrap;
+  }
 }
+
+/*Tablet version*/
+@media only screen and (min-width: 700px){
+  .set{
+    flex-wrap: wrap;
+  }
 }
